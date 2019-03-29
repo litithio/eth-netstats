@@ -1,10 +1,12 @@
-Ethereum Network Stats
+Ethereum Network Stats "Classic"
 ============
 [![Build Status][travis-image]][travis-url] [![dependency status][dep-image]][dep-url]
 
-Eth-Netstats is a legacy visual interface for tracking ethereum network status. It uses WebSockets to receive stats from running nodes and output them through an Angular interface. It is the front-end implementation for [eth-net-intelligence-api](https://github.com/ethereum/eth-net-intelligence-api).
+Eth-Netstats "Classic" is a visual interface for tracking ethereum network status. It uses WebSockets to receive stats from running nodes and output them through an Angular interface. It is the front-end implementation for [eth-net-intelligence-api](https://github.com/ethereum/eth-net-intelligence-api).
 
-Alternative implementations of Eth-Netstats can be found at [ethstats-server](https://github.com/goerli/ethstats-server/) and [ethstats-network-dashboard](https://github.com/Alethio/ethstats-network-dashboard).
+Other implementations of Eth-Netstats can be found at:  
+- [Alethio EthStats](https://github.com/Alethio/ethstats-network-dashboard)
+- [Görli EthStats](https://github.com/goerli/ethstats-server/)
 
 ![Screenshot](https://raw.githubusercontent.com/ethereum/eth-netstats/master/src/images/screenshot.jpg?v=0.0.6 "Screenshot")
 
