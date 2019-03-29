@@ -1,7 +1,5 @@
 Ethereum Network Stats "Classic"
 ============
-[![Build Status][travis-image]][travis-url] [![dependency status][dep-image]][dep-url]
-
 Eth-Netstats "Classic" is a visual interface for tracking ethereum network status. It uses WebSockets to receive stats from running nodes and output them through an Angular interface. It is the front-end implementation for [eth-net-intelligence-api](https://github.com/ethereum/eth-net-intelligence-api).
 
 Other implementations of Eth-Netstats can be found at:  
@@ -70,8 +68,3 @@ Follow the instructions for [installing and running The Ethereum Network Intelli
 - As mentioned earlier `WS_SECRET` needs to match the environmental variable provided when running `npm start`.
 
 The Ethereum Network Intelligence API should be run concurrently with the Ethereum client of your choice. More information on running Ethereum node can be found [here](http://www.ethdocs.org/en/latest/ethereum-clients/choosing-a-client.html#sec-clients).
-
-[travis-image]: https://travis-ci.org/ethereum/eth-netstats.svg
-[travis-url]: https://travis-ci.org/ethereum/eth-netstats
-[dep-image]: https://david-dm.org/ethereum/eth-netstats.svg
-[dep-url]: https://david-dm.org/ethereum/eth-netstats
